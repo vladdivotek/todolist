@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    color: #fff;
+    background: $general-color;
+    z-index: 100;
+
+    .container-sm {
+        @include flex-box(center, space-between);
+        height: 100%;
+    }
+
+    .header-actions {
+        svg {
+            color: #fff;
+        }
+    }
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 22px;
+}
